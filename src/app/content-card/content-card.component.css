@@ -1,0 +1,47 @@
+.card-container{
+    display:inline-block;
+    width:100%;
+}
+.content{
+    display:block;
+    color: #000;
+    text-align:justify;
+    margin: 0.3%;
+    padding: 10px;
+    min-width: 500px;
+}
+.displayBlock{
+    display: block;
+}
+
+.content-Bating{
+    background: #46ff0aa1;
+}
+
+.content-Bowling{
+    background: #3636ea99;
+}
+
+.content-Fielding {
+    background: #f38484;
+}
+
+.content-no-type {
+    background: #ffb256;
+}
+
+.content.highlight{
+    background: #ffff00d6;
+    animation: changeBack 3s infinite;
+}
+
+
+@keyframes changeBack {
+    from {background-color: #ffff00d6;}
+    to {background-color: #fbfbdad6;}
+}
+
+:host {
+    margin-bottom: 10px;
+    display: block;
+}
